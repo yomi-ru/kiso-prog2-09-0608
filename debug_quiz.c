@@ -25,7 +25,7 @@ int main(void) {
 
     printf("場所：%s\n", location);    // バグ①
     printf("気温: %d°C\n", temperature);   // バグ②
-    printf("湿度: %.1f", humidity);      // バグ③
+    printf("湿度: %.1f%%\n", humidity);      // バグ③
 
     return 0;
 }
